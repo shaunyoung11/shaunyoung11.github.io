@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  position: relative;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0 10%;
+  height: 8rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#header .name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#header .nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#header .nav .nav-item {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #666;
+  transition: all ease-in-out 0.3s;
+}
+#header .nav .nav-item:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
