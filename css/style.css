@@ -269,20 +269,16 @@ body {
   margin-top: 2rem;
 }
 
-#awards .awards-title {
+#contact .contact-title {
   background-color: #f7f7f7;
 }
 
-#awards .awards-content {
-  list-style-type: '🏅';
+#contact .contact-item {
+  list-style-type: '👉';
 }
 
-#awards .awards-item:not(:first-child) {
+#contact .contact-item:not(:first-child) {
   margin-top: 2rem;
-}
-
-#contact .contact-content {
-  background-color: #f7f7f7;
 }
 
 #right {

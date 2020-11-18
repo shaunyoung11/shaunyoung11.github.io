@@ -210,21 +210,15 @@ body {
   }
 }
 
-#awards {
-  .awards-title {
-    background-color: rgb(247, 247, 247);
-  }
-  .awards-content {
-    list-style-type: '🏅';
-  }
-  .awards-item:not(:first-child) {
-    margin-top: 2rem;
-  }
-}
-
 #contact {
-  .contact-content {
+  .contact-title {
     background-color: rgb(247, 247, 247);
+  }
+  .contact-item {
+    list-style-type: '👉';
+  }
+  .contact-item:not(:first-child) {
+    margin-top: 2rem;
   }
 }
 
