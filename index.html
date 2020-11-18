@@ -11,8 +11,9 @@
       name="description"
       content="Hi，我是孙轶扬，电子科技大学学生，前端爱好者，请多多指教！"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" media="not print" href="./css/style.css" />
     <link rel="shortcut icon" href="./image/me.png" type="image/x-icon" />
+    <base target="_blank" />
     <title>Yiyang Sun</title>
   </head>
   <body>
@@ -27,8 +28,75 @@
         <a href="https://shaunyoung11.cn/" class="nav-item">Blog</a>
       </nav>
     </header>
-    <div id="home"></div>
-    <div id="news"></div>
+    <div id="home">
+      <div class="intro">
+        <p class="intro-item">
+          Hello! I'm Yiyang Sun, a student of University of Electronic Science
+          and Technology of China (UESTC). You can just call me Shaun Young or
+          Shaun.
+        </p>
+        <p class="intro-item">
+          I'm intrested in frontend technologies, including JavaScript and CSS.
+          I use Vue and React mostly for my personal demos. I am eager to know
+          more about frontend skills.
+        </p>
+        <p class="intro-item">
+          I'm curious about new things. My most competitive ability is the
+          willing to learn new things.
+        </p>
+        <div class="intro-skill">
+          <h3 class="skill-title">Skills</h3>
+          <div class="skill-content">
+            <div class="skill-item">
+              <img src="./image/HTML5.svg" alt="HTML5" title="HTML5" />
+              <div class="skill-img-name">HTML5</div>
+            </div>
+            <div class="skill-item">
+              <img src="./image/CSS3.svg" alt="CSS3" title="CSS3" />
+              <div class="skill-img-name">CSS3</div>
+            </div>
+            <div class="skill-item">
+              <img
+                src="./image/JavaScript.svg"
+                alt="JavaScript"
+                title="JavaScript"
+              />
+              <div class="skill-img-name">JavaScript</div>
+            </div>
+            <div class="skill-item">
+              <img src="./image/Vue.svg" alt="Vue" title="Vue" />
+              <div class="skill-img-name">Vue</div>
+            </div>
+            <div class="skill-item">
+              <img src="./image/linux.svg" alt="linux" title="Linux" />
+              <div class="skill-img-name">linux</div>
+            </div>
+            <div class="skill-item">
+              <img src="./image/React.svg" alt="React" title="React" />
+              <div class="skill-img-name">React</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="profile-img">
+          <img src="./image/profile.jpg" alt="Yiyang Sun" />
+        </div>
+        <div class="profile-name">YiYang Sun (Shaun Young)</div>
+        <div class="profile-major">Frontend Engineer</div>
+        <div class="profile-studio">ZeQi Studio</div>
+        <div class="profile-contact"></div>
+      </div>
+    </div>
+    <div id="news">
+      <div class="news-title">News</div>
+      <ul class="news-content">
+        <li class="news-item">
+          Learn React from <a href="bilibili.com">bilibili.com</a>
+        </li>
+        <li class="news-item">Test</li>
+      </ul>
+    </div>
     <div id="demo"></div>
     <div id="awards"></div>
     <div id="contact"></div>
