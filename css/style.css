@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,30 @@
 body {
   width: 100%;
   position: relative;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 50rem;
+}
+
+.section .section-left {
+  width: 40%;
+  padding-top: 5rem;
+  padding-left: 10%;
+  font-size: 3.6rem;
+}
+
+.section .section-right {
+  width: 60%;
+  padding: 3rem 5rem;
+}
+
+.section .section-right * {
+  font-size: 1.8rem;
 }
 
 #header {
@@ -29,7 +54,7 @@ body {
   z-index: 100;
   position: -webkit-sticky;
   position: sticky;
-  background-color: whitesmoke;
+  background-color: white;
   top: 0;
   left: 0;
 }
@@ -224,9 +249,57 @@ body {
   margin-top: 3rem;
 }
 
-#news {
+#news .news-title {
+  background-color: #f7f7f7;
+}
+
+#news .news-content .news-item:not(:first-child) {
+  margin-top: 2rem;
+}
+
+#demo .demo-content {
+  background-color: #f7f7f7;
+}
+
+#demo .demo-content .demo-item {
+  list-style-type: '👨🏻‍💻';
+}
+
+#demo .demo-content .demo-item:not(:first-child) {
+  margin-top: 2rem;
+}
+
+#awards .awards-title {
+  background-color: #f7f7f7;
+}
+
+#awards .awards-content {
+  list-style-type: '🏅';
+}
+
+#awards .awards-item:not(:first-child) {
+  margin-top: 2rem;
+}
+
+#contact .contact-content {
+  background-color: #f7f7f7;
+}
+
+#right {
+  font-size: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 7rem;
+}
+
+#right * {
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=style.css.map */
