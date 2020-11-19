@@ -11,6 +11,7 @@
 body {
   width: 100%;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 .section {
@@ -83,8 +84,10 @@ body {
   color: #666;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
+  cursor: pointer;
 }
 
+#header .nav .nav-item.hover,
 #header .nav .nav-item:hover {
   color: black;
 }
