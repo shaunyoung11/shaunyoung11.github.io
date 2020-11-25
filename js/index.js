@@ -70,4 +70,14 @@ window.addEventListener('scroll', () => {
     demoBtn.classList.remove('hover')
     contactBtn.classList.add('hover')
   }
+  if (navBtn.classList.contains('display')) {
+    navBtn.classList.remove('display')
+    document.getElementsByClassName('nav')[0].classList.remove('display')
+  }
+})
+
+let navBtn = document.getElementById('nav-bur')
+navBtn.addEventListener('click', () => {
+  navBtn.classList.toggle('display')
+  document.getElementsByClassName('nav')[0].classList.toggle('display')
 })
